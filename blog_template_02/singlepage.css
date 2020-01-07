@@ -1,0 +1,50 @@
+
+.single-page-structure{
+    padding:20px ;
+}
+.single-post-title{
+ 
+}
+.single-post-title h1{
+   padding:10px 10px 20px 10px;
+    color: #464646;
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    border-bottom:1px solid #d6d6c2;
+}
+.single-page-share-option{
+    padding:20px;
+    border-bottom:1px solid #d6d6c2;
+}
+.single-post-thumbnile-area{
+  
+}
+.single-post-add{
+    padding:30px 0px;
+   width:45%;
+   float:left;
+    
+}
+.single-post-add img{
+    width: 300px;
+    max-height:250px;
+}
+.single-post-thum{
+    padding:60px 0px;
+    width:35%;
+    float:left;
+    margin-left:17%;
+}
+.single-post-thumimg{
+    width: 40%;
+    max-height:250px;
+}
+.single-page-content p{
+    font-size:15px;
+    font-family:Helvetica, sans-seri;
+    line-height: 1.8em;
+   
+}
+
+
