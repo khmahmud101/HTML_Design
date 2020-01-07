@@ -1,0 +1,293 @@
+
+/*
+Name: 			GoodWiN 71 Theme
+Written by: 	GoodWiN Theme
+Theme Version:	1.0.0
+*/
+*{
+	
+	box-sizing: border-box;
+}
+html {
+	direction: ltr;
+	overflow-x: hidden;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+html.safari .body {
+	overflow-x: hidden;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+body {
+	
+	margin:0;
+	padding:0;
+	outline:0;
+	font-family: 'PT Serif', serif;
+	font-size: 16px;
+}
+
+body a {
+	outline: none !important;
+}
+
+.container{
+	width:1230px;
+	padding-left:15px;
+	padding-right: 15px;
+	margin:0 auto;
+}
+.container:before,
+.container:after{
+	content :" ";
+	display:table;
+	clear: both;
+}
+.col25{
+	width:25%;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+.col50{
+	width:50%;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+.col100{
+	width:100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+.col33{
+	width:33.33%;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+/* common css */
+.feature img{
+	width:100%;
+	display:block;
+}
+
+.margin-top-bottom{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.cat-img{
+	position: relative;
+}
+.cat.trips a{
+	background: #d90445;
+}
+.cat.tech a{
+	background: #000000;
+}
+.cat.fashion a{
+	background: #8200b2;
+}
+.date-author-common{
+	
+	bottom: 40px;
+	right: 0px;
+}
+.date-author-common a{
+	color: #b0b0b0;
+	display: inline-block;
+	
+	
+	text-decoration: none;
+	display: inline-block;
+}
+.date-author-common a:first-child{
+	border-right: 2px solid #b0b0b0;
+	padding-right: 15px
+}
+.date-author-common a:last-child{
+	color: #1a54e7;
+	padding-left: 15px
+}
+/* Header Area */
+.header{
+	background: pink;
+}
+.logo{
+	display: inline-block;
+	background: #1a54e7;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 35px;
+	font-size: 24px;
+	position: relative;
+
+}
+.logo:before{
+	content:"";
+	position: absolute;
+	background: #1a54e7;
+	top:0;
+	right: 100%;
+	bottom: 0;
+	left: -50000px;
+}
+.logo a{
+	color: #fff;
+}
+.menu{
+	float: right;
+}
+.menu ul{
+	
+}
+.menu ul li{
+	list-style: none;
+	float:left;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 31px 13px;
+	color: #1a54e7;
+	
+
+}
+.menu ul li a:hover{
+	background: #000;
+	color:#fff;
+}
+.menu ul li.active a{
+	position: relative;
+}
+.menu ul li.active a:before{
+	position: absolute;
+	content: "";
+	background: #1a54e7;
+	height: 3px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+
+}
+.banner{
+	text-align: center;
+	background: url(../img/banner.jpg);
+	
+	background-size: 100% 100%;
+	color:#fff;
+}
+.banner-in{
+	position: relative;
+	padding-top: 233px;
+	padding-bottom: 233px;
+}
+.banner-in h2{
+	font-size:48px;
+	font-family: 'PT Serif', serif;
+}
+.cat{
+	position: absolute;
+	bottom: 40px;
+	left: 0px;
+}
+.cat a{
+	color: #fff;
+	display: inline-block;
+	padding: 10px;
+	background: #1a54e7;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.date-author{
+	position: absolute;
+	bottom: 40px;
+	right: 0px;
+}
+.date-author a{
+	color: #fff;
+	display: inline-block;
+	
+	
+	text-decoration: none;
+	
+}
+.date-author a:first-child{
+	border-right: 2px solid #fff;
+	padding-right: 15px;
+}
+.date-author a:last-child{
+	color: #1a54e7;
+	padding-left: 15px;
+}
+
+.subscribe{
+	text-align: center;
+	color: #fff;
+	background: url(../img/sub-img.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.sub-in{
+	position: relative;
+	display:inline-block;
+}
+.sub-in input[type='text']{
+	display:inline-block;
+	height: 48px;
+	width: 320px;
+	border-radius: 30px;
+	border: 0;
+	font-size: 18px;
+	background: #2c6cff;
+	color:#fff;
+	padding-left: 15px;
+	padding-right: 50px;
+}
+.sub-in input[type='text']:focus{
+	outline: 0;
+}
+.submit{
+	position: absolute;
+	right: -82px;
+	top: 0;
+	bottom: 0;
+}
+.submit input{
+	height: 48px;
+	padding: 0 30px;
+	border-radius: 30px;
+	border: 0;
+	background: #fff;
+	font-size: 18px;
+	color:;
+	}
+
+	.footer{
+		color: #d6d8df;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		text-align: center;
+	}
+
+
+
+
+
+
+
